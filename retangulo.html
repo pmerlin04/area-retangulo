@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="tudo">
+        <div class="titulo">
+            <h1>Área do Retângulo</h1>
+        </div>
+
+        <img src="img/retangulo-removebg-preview (1).png" alt="">
+
+        <div class="nome-retangulo">
+            <p>RETÂNGULO</p>
+        </div>
+
+        <div class="calculo">
+            <p>A=b.h</p>
+        </div>
+
+        <div class="instrucoes">
+            <p>Sendo,</p>
+            <p><strong>A:</strong> área</p>
+            <p><strong>B:</strong> base</p>
+            <p><strong>H:</strong> altura</p>
+        </div>
+
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="base">Base<br</label>
+                    <input type="number" name="base" id="base" required>
+                </div>
+
+                <div class="campo">
+                    <label for="altura">Altura<br</label>
+                    <input type="number" name="altura" id="altura" required>
+                </div>
+
+                <div class="campo">
+                    <input type="button" class="botao" value="Calcular" onclick="calcular()">
+                </div>
+            </fieldset>
+        </form>
+        <div id="res"></div>
+    </div>
+
+    <script>
+        function calcular(){
+            var base = document.querySelector('input#base')
+            var altura = document.querySelector('input#altura')
+            var res = document.querySelector('div#res')
+            var n1 = Number(base.value)
+            var n2 = Number(altura.value)
+            var s = n1 * n2
+            res.innerHTML = `A área do retângulo é ${s}`
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(img/imagem\ de\ fundo.jpg);
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tudo{
+    height: 20em;
+    margin: 150px auto;
+    min-height: 600px;
+    margin-left: auto;
+    width: 50%;
+    background-color: #A5C8FF;
+}
+
+.titulo{
+    width: 100%;
+    cursor: pointer;
+    background-color: #F55055;
+    text-align: center;
+    color: #ffff;
+}
+
+/*.rodape{
+    background-color: red;
+    margin-top: 530px;
+    text-align: center;
+    color: #ffff;
+}
+*/
+
+img{
+    margin-left: 8em;
+    margin-top: 2em;
+    width: 30em;
+}
+
+.nome-retangulo{
+    font-size: 20px;
+    margin-left: 14em;
+    margin-top: -2em;
+}
+
+.calculo{
+    font-size: 25px;
+    margin-left: 25em;
+    margin-top: -8em;
+}
+
+.instrucoes{
+    font-size: 20px;
+    margin-left: 31em;
+    margin-top: 2em;
+}
+
+fieldset{
+    border: 0;
+}
+
+
+.campo{
+    margin-bottom: -3em;
+    margin-left: 12em;
+    margin-top: 4em;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.botao{
+    font-size: 17px;
+    margin-left: 4em;
+    background-color: #6ca0f5;
+    cursor: pointer;
+}
+
+#res{
+    margin-left: 14em;
+    margin-top: 5em;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
